@@ -1,26 +1,214 @@
 @import "tailwindcss";
 
+/* root style start */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #2e7d42;
+  --secondary: #7d2e61;
+  --main-background: #ebfcef;
+  --alternate-background: #f4fceb;
+  --accent-background: #fcebf6;
+  --text-color: #17251b;
+}
+* {
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.main {
+  width: 100%;
+  margin: auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.title-font,
+.title-font span {
+  font-family: "montserrat", sans-serif;
+  color: var(--text-color);
+}
+.title-font span {
+  color: var(--primary);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* root style end */
+
+
+/* project style start */
+.projects{
+    background: linear-gradient(
+    to bottom,
+    var(--main-background) 0%,
+    var(--main-background) 40%,
+    var(--accent-background) 100%
+  );
+  width: 100%;
+  position: relative;
 }
+/* project style end */
+
+
+/* header nav style start */
+.header{
+    background-color: var(--accent-background);
+    margin: auto;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #2E7D42;
+    box-shadow: 0px 1px 10px #2E7D42;
+    border-radius: 6px;
+    z-index: 1000;
+}
+
+
+
+.nav-item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--text-color);
+}
+
+.selected-nav-item{
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+}
+
+.nav-item:hover{
+    color: var(--primary);
+    transition: all 0.3s ease-in-out;
+}
+.hire-btn{
+    background-color: var(--primary);
+    color: var(--main-background);
+    border-radius: 4px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.hire-btn:hover{
+    background-color: var(--secondary);
+    transition: all 0.3s ease-in-out;
+}
+/* header nav style end */
+
+
+
+/* hero nav style start */
+.hero{
+    width: 100%;
+    background-color: var(--main-background);
+}
+
+
+.connect-icons-box div{
+    background-color: var(--accent-background);
+    border: 1px solid var(--text-color);
+    display: flex;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+.connect-icons-box div:hover{
+    opacity: 75%;
+    scale: calc(90%);
+}
+
+.hero-floting-card1{
+    background-color: var(--accent-background);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    
+
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.281);
+
+}
+.hero-floting-card2{
+    background-color: var(--alternate-background);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    
+
+    border: 1px solid #2E7D42;
+    box-shadow: 0px 1px 10px #17251B;
+
+}
+
+/* Hero style end */
+
+
+
+/* contact style start */
+.contact{
+    background: linear-gradient(
+    to bottom,
+    var(--main-background) 0%,
+    var(--main-background) 55%,
+    color-mix(in srgb, var(--secondary) 50%, transparent) 100%
+  );
+  width: 100%;
+  position: relative;
+}
+/* contact style end */
+
+
+
+/* about skill style start */
+.about-and-skill {
+  background: linear-gradient(
+    to bottom,
+    var(--accent-background) 0%,
+    var(--accent-background) 40%,
+    var(--main-background) 100%
+  );
+  width: 100%;
+  position: relative;
+}
+
+.bg-layer1 {
+  position: absolute;
+  width: 537px;
+  height: 537px;
+  left: 50%;
+  bottom: 20%;
+  transform: translate(-50%,50%);
+}
+.bg-layer2 {
+  position: absolute;
+  height: 944px;
+  width: 944px;
+  right: 0;
+  bottom: 50%;
+  transform: translate(25%,50%);
+
+}
+.bg-layer3 {
+  position: absolute;
+  width: 637px;
+  height: 637px;
+  right: 0;
+  bottom: 0;
+  transform: translateY(20%);
+}
+/* about skill style end */
+
+
+
