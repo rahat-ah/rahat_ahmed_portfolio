@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-title: var(--font-montserrat);
+}
+
 /* root style start */
 
 :root {
@@ -10,9 +15,10 @@
   --accent-background: #fcebf6;
   --text-color: #17251b;
 }
+
 * {
   box-sizing: border-box;
-  font-family: "inter", sans-serif;
+  font-family: var(--font-sans), sans-serif;
 }
 
 .main {
@@ -22,7 +28,7 @@
 
 .title-font,
 .title-font span {
-  font-family: "montserrat", sans-serif;
+  font-family: var(--font-title) , sans-serif;
   color: var(--text-color);
 }
 .title-font span {
@@ -62,7 +68,7 @@
 
 
 .nav-item{
-    font-family: 'Inter';
+    font-family: var(--font-sans);
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -119,6 +125,11 @@
 .connect-icons-box div:hover{
     opacity: 75%;
     scale: calc(90%);
+}
+.connect-icon{
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .hero-floting-card1{

@@ -11,7 +11,7 @@ const FooterSection = () => {
             className="flex flex-col items-start justify-center md:gap-12 gap-6 md:min-w-[40%] md:max-w-[60%] w-full"
           >
             <div className="flex flex-col items-start justify-center gap-4">
-              <img
+              <Image
                 src="./assets/hero-section/icons/logo_image.svg"
                 alt="Logo"
               />
@@ -46,7 +46,7 @@ const FooterSection = () => {
                 <Link href={'#home'}
                   className="text-sm font-semibold text-[#17251B] hover:text-[#17251B]/80 hover:underline cursor-pointer"
                   >Services</Link>
-                <Link href={'#home'}
+                <Link href='#home'
                   className="text-sm font-semibold text-[#17251B] hover:text-[#17251B]/80 hover:underline cursor-pointer"
                   >Portfolio</Link>
               </div>
@@ -71,7 +71,7 @@ const FooterSection = () => {
               <div
                 className="sm:w-10.5 sm:h-10.5 md:w-8 md:h-8 w-8 h-8 lg:w-10 lg:h-10 sm:rounded-[14px] rounded-lg"
               >
-                <img
+                <Image
                   src="./assets/hero-section/icons/icons8-git-logo-96.png"
                   alt="git"
                   className="connect-icon"
@@ -80,7 +80,7 @@ const FooterSection = () => {
               <div
                 className="sm:w-10.5 sm:h-10.5 md:w-8 md:h-8 lg:w-10 lg:h-10 w-8 h-8 sm:rounded-[14px] rounded-lg"
               >
-                <img
+                <Image
                   src="./assets/hero-section/icons/dribbble.svg"
                   alt="Dribbble"
                   className="connect-icon"
@@ -89,7 +89,7 @@ const FooterSection = () => {
               <div
                 className="sm:w-10.5 sm:h-10.5 md:w-8 md:h-8 lg:w-10 lg:h-10 w-8 h-8 sm:rounded-[14px] rounded-lg"
               >
-                <img
+                <Image
                   src="./assets/hero-section/icons/linkedin.svg"
                   alt="LinkedIn"
                   className="connect-icon"
@@ -98,7 +98,7 @@ const FooterSection = () => {
               <div
                 className="sm:w-10.5 sm:h-10.5 md:w-8 md:h-8 lg:w-10 lg:h-10 w-8 h-8 sm:rounded-[14px] rounded-lg"
               >
-                <img
+                <Image
                   src="./assets/hero-section/icons/youtube.svg"
                   alt="YouTube"
                   className="connect-icon"
@@ -107,7 +107,7 @@ const FooterSection = () => {
               <div
                 className="sm:w-10.5 sm:h-10.5 md:w-8 md:h-8 lg:w-10 lg:h-10 w-8 h-8 sm:rounded-[14px] rounded-lg"
               >
-                <img
+                <Image
                   src="./assets/hero-section/icons/instagram.svg"
                   alt="Instagram"
                   className="connect-icon"
@@ -116,7 +116,7 @@ const FooterSection = () => {
               <div
                 className="sm:w-10.5 sm:h-10.5 md:w-8 md:h-8 lg:w-10 lg:h-10 w-8 h-8 sm:rounded-[14px] rounded-lg"
               >
-                <img
+                <Image
                   src="./assets/hero-section/icons/facebook.svg"
                   alt="Facebook"
                   className="connect-icon"

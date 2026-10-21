@@ -13,10 +13,10 @@ const ServiceSection = () => {
             <div
               className="hero-title-card-box bg-[#7D2E61] flex justify-center items-center gap-2 max-w-44 lg:h-10 rounded-sm ring ring-[#2E7D42] mb-2 px-4 py-1"
             >
-              <h2 className="text-[#EBFCEF] lg:text-xl text-lg font-normal">
+              <h2 className="text-[#EBFCEF] lg:text-xl text-lg font-normal text-nowrap">
                 My services
               </h2>
-              <img
+              <Image
                 className="text-[#EBFCEF] lg:w-6 w-5"
                 src="./assets/service-section/icons/Package.svg"
                 alt="package"
@@ -44,7 +44,7 @@ const ServiceSection = () => {
               <div
                 className="bg-[#2E7D42] w-19 h-19 flex items-center justify-center rounded-[14px]"
               >
-                <img
+                <Image
                   src="./assets/service-section/icons/paint_brush.svg"
                   alt=""
                 />
@@ -69,7 +69,7 @@ const ServiceSection = () => {
                   className="max-w-33 text-[#7D2E61] text-xl font-semibold flex justify-center items-center gap-1.5"
                 >
                   <span className="text-nowrap">Read more</span>
-                  <img
+                  <Image
                     src="./assets/service-section/icons/ArrowRight.svg"
                     alt="arrow right"
                   />
@@ -82,7 +82,7 @@ const ServiceSection = () => {
               <div
                 className="bg-[#2E7D42] w-19 h-19 flex items-center justify-center rounded-[14px]"
               >
-                <img
+                <Image
                   src="./assets/service-section/icons/paint_brush.svg"
                   alt=""
                 />
@@ -107,7 +107,7 @@ const ServiceSection = () => {
                   className="max-w-33 text-[#7D2E61] text-xl font-semibold flex justify-center items-center gap-1.5"
                 >
                   <span className="text-nowrap">Read more</span>
-                  <img
+                  <Image
                     src="./assets/service-section/icons/ArrowRight.svg"
                     alt="arrow right"
                   />
@@ -120,7 +120,7 @@ const ServiceSection = () => {
               <div
                 className="bg-[#2E7D42] w-19 h-19 flex items-center justify-center rounded-[14px]"
               >
-                <img
+                <Image
                   src="./assets/service-section/icons/paint_brush.svg"
                   alt=""
                 />
@@ -145,7 +145,7 @@ const ServiceSection = () => {
                   className="max-w-33 text-[#7D2E61] text-xl font-semibold flex justify-center items-center gap-1.5"
                 >
                   <span className="text-nowrap">Read more</span>
-                  <img
+                  <Image
                     src="./assets/service-section/icons/ArrowRight.svg"
                     alt="arrow right"
                   />
@@ -158,7 +158,7 @@ const ServiceSection = () => {
               <div
                 className="bg-[#2E7D42] w-19 h-19 flex items-center justify-center rounded-[14px]"
               >
-                <img
+                <Image
                   src="./assets/service-section/icons/paint_brush.svg"
                   alt=""
                 />
@@ -183,7 +183,7 @@ const ServiceSection = () => {
                   className="max-w-33 text-[#7D2E61] text-xl font-semibold flex justify-center items-center gap-1.5"
                 >
                   <span className="text-nowrap">Read more</span>
-                  <img
+                  <Image
                     src="./assets/service-section/icons/ArrowRight.svg"
                     alt="arrow right"
                   />

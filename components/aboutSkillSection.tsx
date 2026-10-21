@@ -13,7 +13,7 @@ const AboutSkillSection = () => {
           <div
             className="flex flex-col items-center justify-center gap-4 md:w-1/2 w-full"
           >
-            <img
+            <Image
               src="./assets/about-skill-section/images/skill up left image.svg"
               alt="about profile"
               className="w-full rounded-[40px]"
@@ -50,7 +50,7 @@ const AboutSkillSection = () => {
                 <h2 className="text-[#EBFCEF] lg:text-xl text-lg font-normal">
                   My Creative Journey
                 </h2>
-                <img
+                <Image
                   className="text-[#EBFCEF] lg:w-6 w-5"
                   src="./assets/about-skill-section/icons/BookBookmark.svg"
                   alt="Lightbulb"
@@ -103,7 +103,7 @@ const AboutSkillSection = () => {
                 className="px-6 py-3 rounded-sm text-[#EBFCEF] font-medium text-lg bg-[#2E7D42] max-w-64 flex justify-center items-center gap-1 hover:bg-[#7D2E61] transition-all hover:shadow-[#2E7D42] hover:shadow-lg"
               >
                 <span>Download My CV</span>
-                <img
+                <Image
                   src="./assets/about-skill-section/icons/download.svg"
                   alt="Download CV"
                   className="inline-block w-6"
@@ -124,7 +124,7 @@ const AboutSkillSection = () => {
               <h2 className="text-[#EBFCEF] lg:text-xl text-lg font-normal">
                 TECH
               </h2>
-              <img
+              <Image
                 className="text-[#EBFCEF] lg:w-6 w-5"
                 src="./assets/about-skill-section/icons/cpu.svg"
                 alt="Lightbulb"
@@ -141,37 +141,37 @@ const AboutSkillSection = () => {
               className="icons-row1 flex w-[90%] items-center justify-between lg:justify-center lg:gap-14 xl:gap-20 gap-1.5"
             >
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/figma 1.svg"
                   alt="figma"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/nextJs_3d_logo_2-removebg-preview 1.svg"
                   alt="nextjs"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/nodejs_3d_logo_2-removebg-preview 1.svg"
                   alt="nodejs"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/JavaScript 3d logo 1.svg"
                   alt="javascript"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/mongo_db_3d_logo_2-removebg-preview 1.svg"
                   alt="mongodb"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/react_3d_logo_2-removebg-preview 1.svg"
                   alt="react"
                 />
@@ -181,31 +181,31 @@ const AboutSkillSection = () => {
               className="icons-row2 flex justify-between lg:justify-center md:w-[60%] w-[80%] md:min-w-140 items-center lg:gap-14 xl:gap-18.5 gap-1.5"
             >
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/git 3d logo 1.svg"
                   alt="git"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/express js 3d logo 1.svg"
                   alt="express"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/typescript 3d logo 1.svg"
                   alt="typescript"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/tailwind 3d logo 1.svg"
                   alt="tailwind"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/framer 3d logo 2.svg"
                   alt="framer-motion"
                 />
@@ -215,13 +215,13 @@ const AboutSkillSection = () => {
               className="icons-row3 flex justify-between lg:justify-center w-[25%] items-center lg:gap-14 xl:gap-15"
             >
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/css_3d_logo-removebg-preview 1.svg"
                   alt="css"
                 />
               </div>
               <div>
-                <img
+                <Image
                   src="./assets/about-skill-section/images/html_3d_logo_2-removebg-preview 1.svg"
                   alt="html"
                 />
@@ -230,17 +230,17 @@ const AboutSkillSection = () => {
           </div>
         </section>
         {/* <!-- skills section start here --> */}
-        <img
+        <Image
           src="./assets/about-skill-section/icons/middle-bottom-bg-layer.svg"
           alt="bg-layer"
           className="bg-layer1 pointer-events-none z-0"
         />
-        <img
+        <Image
           src="./assets/about-skill-section/icons/right-middle-bg-layer.svg"
           alt="bg-layer"
           className="bg-layer2 pointer-events-none z-0"
         />
-        <img
+        <Image
           src="./assets/about-skill-section/icons/right-bottom-bg-layer.svg"
           alt="bg-layer"
           className="bg-layer3 pointer-events-none z-0"

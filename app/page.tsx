@@ -13,30 +13,30 @@ export default function Home() {
     <HeaderSection />
     {/* <!-- header section end here --> */}
 
-    <main className="main">
+    <main className="main m-0!">
       {/* <!-- hero section start here --> */}
       <HeroSection />
       {/* <!-- hero section end here --> */}
 
       {/* <!-- about and skill section start here --> */}
-      <AboutSkillSection />
+      {/* <AboutSkillSection /> */}
       {/* <!-- about and skill end start here --> */}
 
       {/* <!-- projects section start here --> */}
-      <ProjectSection />
+      {/* <ProjectSection /> */}
       {/* <!-- projects section end here --> */}
 
       {/* <!-- services section start here --> */}
-      <ServiceSection />
+      {/* <ServiceSection /> */}
       {/* <!-- services section end here --> */}
 
       {/* <!-- contacts section start here --> */}
-      <ContactSection />
+      {/* <ContactSection /> */}
        {/* contacts section end here  */}
 
     </main>
      {/* <!-- footer section start here --> */}
-      <FooterSection />
+      {/* <FooterSection /> */}
       {/* <!-- footer section end here --> */}
     </>
   );

@@ -10,7 +10,7 @@ const ContactSection = () => {
             className="hero-title-card-box bg-[#7D2E61] flex justify-center items-center gap-2 max-w-44 h-10 rounded-sm ring ring-[#2E7D42] mb-2 px-4 py-2"
           >
             <h2 className="text-[#EBFCEF] text-xl font-normal">Contact me</h2>
-            <img
+            <Image
               className="text-[#EBFCEF] w-6"
               src="./assets/contact-section/icons/AddressBook.svg"
               alt="address book"
@@ -41,7 +41,7 @@ const ContactSection = () => {
                     <div
                       className="w-11 h-11 rounded-full border-2 border-[#2E7D42] flex items-center justify-center"
                     >
-                      <img
+                      <Image
                         src="./assets/contact-section/icons/phone_icon.svg"
                         alt="Phone"
                       />
@@ -60,7 +60,7 @@ const ContactSection = () => {
                     <div
                       className="w-11 h-11 rounded-full border-2 border-[#2E7D42] flex items-center justify-center"
                     >
-                      <img
+                      <Image
                         src="./assets/contact-section/icons/email_icon.svg"
                         alt="Email"
                       />
@@ -79,7 +79,7 @@ const ContactSection = () => {
                     <div
                       className="w-11 h-11 rounded-full border-2 border-[#2E7D42] flex items-center justify-center"
                     >
-                      <img
+                      <Image
                         src="./assets/contact-section/icons/map_icon.svg"
                         alt="Map"
                       />
@@ -107,7 +107,7 @@ const ContactSection = () => {
                   <div
                     className="sm:w-10.5 sm:h-10.5 w-8 h-8 sm:rounded-[14px] rounded-lg"
                   >
-                    <img
+                    <Image
                       src="./assets/hero-section/icons/icons8-git-logo-96.png"
                       alt="git"
                       className="connect-icon"
@@ -116,7 +116,7 @@ const ContactSection = () => {
                   <div
                     className="sm:w-10.5 sm:h-10.5 w-8 h-8 sm:rounded-[14px] rounded-lg"
                   >
-                    <img
+                    <Image
                       src="./assets/hero-section/icons/dribbble.svg"
                       alt="Dribbble"
                       className="connect-icon"
@@ -125,7 +125,7 @@ const ContactSection = () => {
                   <div
                     className="sm:w-10.5 sm:h-10.5 w-8 h-8 sm:rounded-[14px] rounded-lg"
                   >
-                    <img
+                    <Image
                       src="./assets/hero-section/icons/linkedin.svg"
                       alt="LinkedIn"
                       className="connect-icon"
@@ -134,7 +134,7 @@ const ContactSection = () => {
                   <div
                     className="sm:w-10.5 sm:h-10.5 w-8 h-8 sm:rounded-[14px] rounded-lg"
                   >
-                    <img
+                    <Image
                       src="./assets/hero-section/icons/youtube.svg"
                       alt="YouTube"
                       className="connect-icon"
@@ -143,7 +143,7 @@ const ContactSection = () => {
                   <div
                     className="sm:w-10.5 sm:h-10.5 w-8 h-8 sm:rounded-[14px] rounded-lg"
                   >
-                    <img
+                    <Image
                       src="./assets/hero-section/icons/instagram.svg"
                       alt="Instagram"
                       className="connect-icon"
@@ -152,7 +152,7 @@ const ContactSection = () => {
                   <div
                     className="sm:w-10.5 sm:h-10.5 w-8 h-8 sm:rounded-[14px] rounded-lg"
                   >
-                    <img
+                    <Image
                       src="./assets/hero-section/icons/facebook.svg"
                       alt="Facebook"
                       className="connect-icon"
@@ -209,8 +209,8 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-        <img
-          src="./assets/contact-section/images/IMG_7062-Photoroom 2.svg"
+        <Image
+          src="./assets/contact-section/images/Image_7062-Photoroom 2.svg"
           alt="contact-profile-bg"
           className="max-w-[40%] max-h-[80%] absolute bottom-0 left-[15%] object-contain pointer-events-none z-0 hidden md:block"
         />
