@@ -19,7 +19,7 @@ export default function Home() {
       {/* <!-- hero section end here --> */}
 
       {/* <!-- about and skill section start here --> */}
-      {/* <AboutSkillSection /> */}
+      <AboutSkillSection />
       {/* <!-- about and skill end start here --> */}
 
       {/* <!-- projects section start here --> */}

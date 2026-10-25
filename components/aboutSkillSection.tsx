@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from "next/image"
 
 const AboutSkillSection = () => {
   return (
@@ -13,11 +13,15 @@ const AboutSkillSection = () => {
           <div
             className="flex flex-col items-center justify-center gap-4 md:w-1/2 w-full"
           >
-            <Image
-              src="./assets/about-skill-section/images/skill up left image.svg"
+            <div className="w-full aspect-4/4 rounded-[40px] relative">
+              <Image
+              fill
+              src="/assets/about-skill-section/images/skill up left image.svg"
               alt="about profile"
-              className="w-full rounded-[40px]"
+              className="object-contain"
             />
+            </div>
+            
             <div
               className="xl:hidden hidden justify-between items-center xl:max-w-[60%] max-w-full md:flex gap-4"
             >
@@ -50,11 +54,15 @@ const AboutSkillSection = () => {
                 <h2 className="text-[#EBFCEF] lg:text-xl text-lg font-normal">
                   My Creative Journey
                 </h2>
-                <Image
-                  className="text-[#EBFCEF] lg:w-6 w-5"
-                  src="./assets/about-skill-section/icons/BookBookmark.svg"
+                <div className="text-[#EBFCEF] lg:w-6 w-5 relative shrink-0 aspect-4/4">
+                  <Image
+                  fill
+                  className="object-contain"
+                  src="/assets/about-skill-section/icons/BookBookmark.svg"
                   alt="Lightbulb"
                 />
+                </div>
+                
               </div>
               <h1
                 className="title-font xl:text-[56px] lg:text-[44px] md:text-[36px] sm:text-[44px] text-[32px] font-bold leading-[1.2]"
@@ -100,14 +108,18 @@ const AboutSkillSection = () => {
                 </div>
               </div>
               <button
-                className="px-6 py-3 rounded-sm text-[#EBFCEF] font-medium text-lg bg-[#2E7D42] max-w-64 flex justify-center items-center gap-1 hover:bg-[#7D2E61] transition-all hover:shadow-[#2E7D42] hover:shadow-lg"
+                className="px-4 py-3 rounded-sm text-[#EBFCEF] font-medium text-lg bg-[#2E7D42] max-w-64 flex justify-center items-center gap-2 hover:bg-[#7D2E61] transition-all hover:shadow-[#2E7D42] hover:shadow-lg"
               >
                 <span>Download My CV</span>
-                <Image
-                  src="./assets/about-skill-section/icons/download.svg"
+                <div className="inline-block w-6 relative aspect-square">
+                  <Image
+                  fill
+                  src="/assets/about-skill-section/icons/download.svg"
                   alt="Download CV"
-                  className="inline-block w-6"
+                  className="object-contain"
                 />
+                </div>
+                
               </button>
             </div>
           </div>
@@ -124,11 +136,15 @@ const AboutSkillSection = () => {
               <h2 className="text-[#EBFCEF] lg:text-xl text-lg font-normal">
                 TECH
               </h2>
-              <Image
-                className="text-[#EBFCEF] lg:w-6 w-5"
-                src="./assets/about-skill-section/icons/cpu.svg"
+              <div className="text-[#EBFCEF] lg:w-6 w-5 relative aspect-square">
+                <Image
+                fill
+                src="/assets/about-skill-section/icons/cpu.svg"
                 alt="Lightbulb"
+                className="object-contain"
               />
+              </div>
+              
             </div>
             <h1
               className="title-font xl:text-[56px] lg:text-[44px] md:text-[36px] sm:text-[44px] text-[32px] font-bold leading-[1.2]"
@@ -140,111 +156,136 @@ const AboutSkillSection = () => {
             <div
               className="icons-row1 flex w-[90%] items-center justify-between lg:justify-center lg:gap-14 xl:gap-20 gap-1.5"
             >
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/figma 1.svg"
+                  src="/assets/about-skill-section/images/figma 1.svg"
                   alt="figma"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/nextJs_3d_logo_2-removebg-preview 1.svg"
+                  src="/assets/about-skill-section/images/nextJs_3d_logo_2-removebg-preview 1.svg"
                   alt="nextjs"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/nodejs_3d_logo_2-removebg-preview 1.svg"
+                  src="/assets/about-skill-section/images/nodejs_3d_logo_2-removebg-preview 1.svg"
                   alt="nodejs"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/JavaScript 3d logo 1.svg"
+                  src="/assets/about-skill-section/images/JavaScript 3d logo 1.svg"
                   alt="javascript"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/mongo_db_3d_logo_2-removebg-preview 1.svg"
+                  src="/assets/about-skill-section/images/mongo_db_3d_logo_2-removebg-preview 1.svg"
                   alt="mongodb"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/react_3d_logo_2-removebg-preview 1.svg"
+                  src="/assets/about-skill-section/images/react_3d_logo_2-removebg-preview 1.svg"
                   alt="react"
+                  fill
                 />
               </div>
             </div>
             <div
               className="icons-row2 flex justify-between lg:justify-center md:w-[60%] w-[80%] md:min-w-140 items-center lg:gap-14 xl:gap-18.5 gap-1.5"
             >
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/git 3d logo 1.svg"
+                  src="/assets/about-skill-section/images/git 3d logo 1.svg"
                   alt="git"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/express js 3d logo 1.svg"
+                  src="/assets/about-skill-section/images/express js 3d logo 1.svg"
                   alt="express"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/typescript 3d logo 1.svg"
+                  src="/assets/about-skill-section/images/typescript 3d logo 1.svg"
                   alt="typescript"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/tailwind 3d logo 1.svg"
+                  src="/assets/about-skill-section/images/tailwind 3d logo 1.svg"
                   alt="tailwind"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/framer 3d logo 2.svg"
+                  src="/assets/about-skill-section/images/framer 3d logo 2.svg"
                   alt="framer-motion"
+                  fill
                 />
               </div>
             </div>
             <div
               className="icons-row3 flex justify-between lg:justify-center w-[25%] items-center lg:gap-14 xl:gap-15"
             >
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/css_3d_logo-removebg-preview 1.svg"
+                  src="/assets/about-skill-section/images/css_3d_logo-removebg-preview 1.svg"
                   alt="css"
+                  fill
                 />
               </div>
-              <div>
+              <div className="relative w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 shrink-0">
                 <Image
-                  src="./assets/about-skill-section/images/html_3d_logo_2-removebg-preview 1.svg"
+                  src="/assets/about-skill-section/images/html_3d_logo_2-removebg-preview 1.svg"
                   alt="html"
+                  fill
                 />
               </div>
             </div>
           </div>
         </section>
         {/* <!-- skills section start here --> */}
-        <Image
-          src="./assets/about-skill-section/icons/middle-bottom-bg-layer.svg"
+        <div className="bg-layer1 pointer-events-none z-0">
+          <Image
+          src="/assets/about-skill-section/icons/middle-bottom-bg-layer.svg"
           alt="bg-layer"
-          className="bg-layer1 pointer-events-none z-0"
+          
+          fill
         />
-        <Image
-          src="./assets/about-skill-section/icons/right-middle-bg-layer.svg"
+        </div>
+
+        <div className="bg-layer2 pointer-events-none z-0">
+          <Image
+          src="/assets/about-skill-section/icons/right-middle-bg-layer.svg"
           alt="bg-layer"
-          className="bg-layer2 pointer-events-none z-0"
+          
+          fill
         />
-        <Image
-          src="./assets/about-skill-section/icons/right-bottom-bg-layer.svg"
+        </div>
+        
+        <div className="bg-layer3 pointer-events-none z-0">
+          <Image
+          src="/assets/about-skill-section/icons/right-bottom-bg-layer.svg"
           alt="bg-layer"
-          className="bg-layer3 pointer-events-none z-0"
+          
+          fill
         />
+        </div>
+        
       </div>
   )
 }
